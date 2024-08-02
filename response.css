@@ -1,0 +1,127 @@
+:root{
+    --body-color:#eff8ff;
+    --border-color:#c7ced4;
+    --text-color:#1a232c;
+    --meta-color:#505a64;
+}
+
+@media (max-width:1200px) {
+    .demo{
+        flex-direction: column;
+    }
+    .demo .left p{
+        display: none;
+    }
+    .demo .left img{
+        width: 250px;
+        margin-bottom: -40px;
+        margin-right: -70px;
+    }
+    
+}
+@media (max-width:600px){
+    section{
+        background: linear-gradient(to right,#fcf3f8 15% , #eff8ff 20%);
+        height: 100vh;
+      }
+    .eng{
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 15px;
+        color: #505a64;
+        
+    }
+    .demo .right .search form{
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+    }
+    .demo .left img,#email-0,footer{
+        display: none;
+    }
+    #email-1{
+        display: block;
+    }
+    .demo .left{
+        position: relative;
+        bottom: 60px;
+        right: 0px;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        
+    }
+    #facebook{
+       
+        display: block;
+        font-size: 55px;
+        color: #0866ff;
+    }
+    .demo .right .search form input{
+        padding: 18px 20px;
+        border-color: var(--border-color);
+        border-radius: 12px;
+    }
+    .demo .right .search form input[type="submit"]{
+        font-weight: 300;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .demo .right .search form a{
+        color: var(--text-color);
+        font-size: 15px;
+       
+    }
+    .demo .right .search form a:hover{
+        text-decoration: none;
+    }
+    .demo .right .search .hint{
+        display: none;
+    }
+    .demo .right .search form .button{
+        border: none;
+        margin-top: 20px;
+       
+    }
+    .demo .right .search form button{
+       width: 100%;
+        top: 15px; 
+        left: 0;
+        height: 42px;
+        font-weight: 400;
+        border-radius: 30px;
+        background-color: transparent;
+        border-color: #0866ff;
+        color: #0866ff;
+
+    }
+    .demo .right .search form button:hover{
+        background-color: #ffffff9f;
+    }
+    .meta{
+        display: block;
+        margin: 20px 0;
+        font-size: 18px;
+        color: var(--meta-color);
+    }
+    .help{
+        display: block;
+        display: flex;
+        gap: 10px;
+    }
+    .help a{
+        color: var(--meta-color);
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+ 
+
+
+
+
+
+
+
+ }
